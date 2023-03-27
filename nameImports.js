@@ -1,3 +1,5 @@
-import { name } from "./nameExports.js"
+import { names } from "./nameExports.js"
+import { run } from "./nameExports.js"
 
-console.log(name);
+console.log(names);
+console.log(run());
